@@ -1,0 +1,18 @@
+{
+  "disc_count": 1,
+  "verdict": "single",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Fighting Force 2 (USA).cue",
+      "cue_path": "disc/Fighting Force 2 (USA).cue",
+      "serial": "SLUS-00934",
+      "boot_exe": "SLUS_009.34",
+      "entry_pc": "0x80010890",
+      "track_count": 2,
+      "required_disc_fp": "27ecd05b7b1808b51af58cb1ed315236db2808dc88b354652d4e8a67020cfb99"
+    }
+  ]
+}
