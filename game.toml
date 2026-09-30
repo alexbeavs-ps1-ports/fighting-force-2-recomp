@@ -5,6 +5,8 @@ id = "SLUS-00934"
 players = 1
 exe = "disc/SLUS_009.34"
 disc = "disc/Fighting Force 2 (USA).cue"
+discs = ["disc/Fighting Force 2 (USA).cue"]
+disc_serials = ["SLUS-00934"]
 load_address = "0x80010000"
 entry_pc = "0x80010890"
 text_size = "0x0005C000"
@@ -12,17 +14,20 @@ stack_base = "0x801FFFF0"
 
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Fighting Force 2 (USA).bin"
+bin_name = "Fighting Force 2 (USA) (Track 1).bin"
 cue_name = "Fighting Force 2 (USA).cue"
 boot_exe = "SLUS_009.34"
-known_sizes = [409085712]
+known_sizes = [376094208, 409085712]
 known_md5 = [
+  "1fec84e29b197b36837df1cb9c40dacc",
   "fe2dca8e376ff5ec3aa5a221ee88dd6a",
 ]
 known_sha1 = [
+  "248cbccb0bfcb676f30471567494209b09b99e86",
   "adee00ac66a53eae50025dd1019c2038ed65e2f6",
 ]
 known_crc32 = [
+  "d0d4d156",
   "b9692470",
 ]
 
